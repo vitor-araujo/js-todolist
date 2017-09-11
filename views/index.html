@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div>
+    <h1>To do List</h1>
+    <h5>An App by Vitor</h5> 
+    </div>
+
+  
+    
+    <div>
+      <input class= "main" type="text" id="addTodoText" placeholder="Add a Todo and press Enter" onkeypress="handlers.enterAdd();"/>
+   </div>
+    
+    <div>
+    <ul>
+      
+    </ul>
+    </div>
+
+    <div>
+      <button onclick="handlers.changeTodo()">Change Todo</button>
+      <input type="number" id="todoPosition" placeholder = "Todo's position"/>
+      <input type="text" name="" id="todoNewText" placeholder = "Todo's new value"/>
+    </div>
+    
+    <div>
+    <button class="button" onclick="handlers.toggleTodos()">Toggle Todos</button>
+    </div>
+    
+    <div>
+
+    </div>
+    
+    <div>
+      <button onclick="handlers.toggleTodo()">Toogle Todo</button>
+      <input type="number" id="todoTogglePosition" placeholder = "Todo's position"/>
+    </div>
+  
+    <ul>
+      
+    </ul>
+  
+    
+  <script src="client.js"></script>
+  
+  </body>
+    
+</html>

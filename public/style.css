@@ -1,0 +1,25 @@
+* {
+   color: #000 ;
+   font-family: arial;
+}
+
+input.main {
+  width: 66%;
+  height: 20px;
+}
+
+
+
+button:hover {
+ background-color: #E0E0E0; background-image: -webkit-gradient(linear, left top, left bottom, from(#E0E0E0), to(#BDBBBC));
+}
+
+body {
+  background-color: #d3d3d3;
+}
+
+div {
+  margin: 25px;
+  margin-left: 25%;
+  margin-top: 5%;
+}
